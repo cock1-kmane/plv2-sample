@@ -1,7 +1,6 @@
 jobs:
-  - job:
-      name : vtestjob
-      type : manifest
-      steps :
-        - GET vtestresource
-        - PUT vtestresource
+  - name : vtestjob
+    type : manifest
+    steps :
+      - GET vtestresource
+      - PUT vtestresource
